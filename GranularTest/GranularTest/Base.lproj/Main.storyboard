@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="obl-to-QE0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="xoc-TI-h6r">
+            <objects>
+                <viewController id="obl-to-QE0" customClass="InitialViewController" customModule="GranularTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uLG-J6-OEQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTx-Ih-IYo">
+                                <rect key="frame" x="152" y="318" width="71" height="30"/>
+                                <state key="normal" title="Click Here"/>
+                                <connections>
+                                    <action selector="getImageData:" destination="obl-to-QE0" eventType="touchUpInside" id="Gqf-bh-G1R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cTx-Ih-IYo" firstAttribute="centerX" secondItem="uLG-J6-OEQ" secondAttribute="centerX" id="LuE-h3-hMH"/>
+                            <constraint firstItem="cTx-Ih-IYo" firstAttribute="centerY" secondItem="uLG-J6-OEQ" secondAttribute="centerY" id="WZh-Ug-vM4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MSd-uG-EIL"/>
+                    </view>
+                    <connections>
+                        <segue destination="Hq7-dU-f3S" kind="show" identifier="TableViewSEG" id="4h6-4z-2sA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8v-Py-DXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-385" y="109"/>
+        </scene>
+        <!--Granuler Table View Controller-->
+        <scene sceneID="0r7-ZS-AJy">
+            <objects>
+                <tableViewController id="Hq7-dU-f3S" customClass="GranulerTableViewController" customModule="GranularTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="pyK-FZ-pcl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="Hq7-dU-f3S" id="ckM-RO-JcY"/>
+                            <outlet property="delegate" destination="Hq7-dU-f3S" id="9w7-LD-YIZ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cng-Ln-AzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="350" y="109"/>
+        </scene>
+    </scenes>
+</document>
