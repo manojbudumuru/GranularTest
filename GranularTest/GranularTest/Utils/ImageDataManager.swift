@@ -9,7 +9,6 @@
 import Foundation
 
 class ImageDataManager {
-    
     static let shared = ImageDataManager()
     var imgDataModel : IMGDataModel?
 }

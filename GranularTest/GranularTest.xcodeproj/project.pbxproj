@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BC3500362307E70D0063EE98 /* placeHolderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3500352307E70D0063EE98 /* placeHolderImage.png */; };
+		BC35003E230A439A0063EE98 /* GranularTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35003D230A439A0063EE98 /* GranularTestTests.swift */; };
+		BC350046230A44EE0063EE98 /* IMGDataModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC350045230A44EE0063EE98 /* IMGDataModelTest.swift */; };
 		BC7459DE2307B8A9005D85E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7459DD2307B8A9005D85E1 /* AppDelegate.swift */; };
 		BC7459E32307B8A9005D85E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7459E12307B8A9005D85E1 /* Main.storyboard */; };
 		BC7459E62307B8A9005D85E1 /* GranularTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC7459E42307B8A9005D85E1 /* GranularTest.xcdatamodeld */; };
@@ -18,7 +20,6 @@
 		BC7459FE2307BB4E005D85E1 /* DataConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7459FD2307BB4E005D85E1 /* DataConstants.swift */; };
 		BC745A002307BC49005D85E1 /* IMGDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7459FF2307BC49005D85E1 /* IMGDataModel.swift */; };
 		BC745A022307BE67005D85E1 /* ImageDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC745A012307BE67005D85E1 /* ImageDataDelegate.swift */; };
-		BC745A042307C0C2005D85E1 /* ImageResponceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC745A032307C0C2005D85E1 /* ImageResponceHandler.swift */; };
 		BC745A072307C268005D85E1 /* ImageNetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC745A062307C268005D85E1 /* ImageNetworkInterface.swift */; };
 		BC745A092307D244005D85E1 /* ImageDataPersistenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC745A082307D244005D85E1 /* ImageDataPersistenceUtil.swift */; };
 		BC745A0B2307DBEA005D85E1 /* ImageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC745A0A2307DBEA005D85E1 /* ImageDataManager.swift */; };
@@ -26,8 +27,22 @@
 		BC745A152307E119005D85E1 /* CustomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC745A132307E119005D85E1 /* CustomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BC350040230A439A0063EE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC7459D22307B8A9005D85E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC7459D92307B8A9005D85E1;
+			remoteInfo = GranularTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		BC3500352307E70D0063EE98 /* placeHolderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeHolderImage.png; sourceTree = "<group>"; };
+		BC35003B230A439A0063EE98 /* GranularTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GranularTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35003D230A439A0063EE98 /* GranularTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GranularTestTests.swift; sourceTree = "<group>"; };
+		BC35003F230A439A0063EE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC350045230A44EE0063EE98 /* IMGDataModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMGDataModelTest.swift; sourceTree = "<group>"; };
 		BC7459DA2307B8A9005D85E1 /* GranularTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GranularTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7459DD2307B8A9005D85E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC7459E22307B8A9005D85E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +55,6 @@
 		BC7459FD2307BB4E005D85E1 /* DataConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstants.swift; sourceTree = "<group>"; };
 		BC7459FF2307BC49005D85E1 /* IMGDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMGDataModel.swift; sourceTree = "<group>"; };
 		BC745A012307BE67005D85E1 /* ImageDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataDelegate.swift; sourceTree = "<group>"; };
-		BC745A032307C0C2005D85E1 /* ImageResponceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponceHandler.swift; sourceTree = "<group>"; };
 		BC745A062307C268005D85E1 /* ImageNetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNetworkInterface.swift; sourceTree = "<group>"; };
 		BC745A082307D244005D85E1 /* ImageDataPersistenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataPersistenceUtil.swift; sourceTree = "<group>"; };
 		BC745A0A2307DBEA005D85E1 /* ImageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataManager.swift; sourceTree = "<group>"; };
@@ -49,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BC350038230A439A0063EE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC7459D72307B8A9005D85E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC35003C230A439A0063EE98 /* GranularTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC35003D230A439A0063EE98 /* GranularTestTests.swift */,
+				BC35003F230A439A0063EE98 /* Info.plist */,
+				BC350045230A44EE0063EE98 /* IMGDataModelTest.swift */,
+			);
+			path = GranularTestTests;
+			sourceTree = "<group>";
+		};
 		BC7459D12307B8A9005D85E1 = {
 			isa = PBXGroup;
 			children = (
 				BC7459DC2307B8A9005D85E1 /* GranularTest */,
+				BC35003C230A439A0063EE98 /* GranularTestTests */,
 				BC7459DB2307B8A9005D85E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				BC7459DA2307B8A9005D85E1 /* GranularTest.app */,
+				BC35003B230A439A0063EE98 /* GranularTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				BC3500352307E70D0063EE98 /* placeHolderImage.png */,
-				BC745A052307C0C9005D85E1 /* DataHandler */,
 				BC7459FA2307BAEE005D85E1 /* CustomeViews */,
 				BC7459F62307B98F005D85E1 /* ViewControlers */,
 				BC7459F52307B91F005D85E1 /* Protocols */,
@@ -148,17 +180,27 @@
 			path = CustomeViews;
 			sourceTree = "<group>";
 		};
-		BC745A052307C0C9005D85E1 /* DataHandler */ = {
-			isa = PBXGroup;
-			children = (
-				BC745A032307C0C2005D85E1 /* ImageResponceHandler.swift */,
-			);
-			path = DataHandler;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BC35003A230A439A0063EE98 /* GranularTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC350044230A439A0063EE98 /* Build configuration list for PBXNativeTarget "GranularTestTests" */;
+			buildPhases = (
+				BC350037230A439A0063EE98 /* Sources */,
+				BC350038230A439A0063EE98 /* Frameworks */,
+				BC350039230A439A0063EE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC350041230A439A0063EE98 /* PBXTargetDependency */,
+			);
+			name = GranularTestTests;
+			productName = GranularTestTests;
+			productReference = BC35003B230A439A0063EE98 /* GranularTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BC7459D92307B8A9005D85E1 /* GranularTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC7459EF2307B8AB005D85E1 /* Build configuration list for PBXNativeTarget "GranularTest" */;
@@ -186,6 +228,10 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "manoj budumuru";
 				TargetAttributes = {
+					BC35003A230A439A0063EE98 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BC7459D92307B8A9005D85E1;
+					};
 					BC7459D92307B8A9005D85E1 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -205,11 +251,19 @@
 			projectRoot = "";
 			targets = (
 				BC7459D92307B8A9005D85E1 /* GranularTest */,
+				BC35003A230A439A0063EE98 /* GranularTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BC350039230A439A0063EE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC7459D82307B8A9005D85E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +279,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BC350037230A439A0063EE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35003E230A439A0063EE98 /* GranularTestTests.swift in Sources */,
+				BC350046230A44EE0063EE98 /* IMGDataModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC7459D62307B8A9005D85E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,13 +301,20 @@
 				BC745A022307BE67005D85E1 /* ImageDataDelegate.swift in Sources */,
 				BC745A092307D244005D85E1 /* ImageDataPersistenceUtil.swift in Sources */,
 				BC7459F92307B9D8005D85E1 /* GranulerTableViewController.swift in Sources */,
-				BC745A042307C0C2005D85E1 /* ImageResponceHandler.swift in Sources */,
 				BC7459DE2307B8A9005D85E1 /* AppDelegate.swift in Sources */,
 				BC7459FC2307BB18005D85E1 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC350041230A439A0063EE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC7459D92307B8A9005D85E1 /* GranularTest */;
+			targetProxy = BC350040230A439A0063EE98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC7459E12307B8A9005D85E1 /* Main.storyboard */ = {
@@ -266,6 +336,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BC350042230A439A0063EE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GranularTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GranularTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GranularTest.app/GranularTest";
+			};
+			name = Debug;
+		};
+		BC350043230A439A0063EE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GranularTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GranularTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GranularTest.app/GranularTest";
+			};
+			name = Release;
+		};
 		BC7459ED2307B8AB005D85E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +525,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BC350044230A439A0063EE98 /* Build configuration list for PBXNativeTarget "GranularTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC350042230A439A0063EE98 /* Debug */,
+				BC350043230A439A0063EE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BC7459D52307B8A9005D85E1 /* Build configuration list for PBXProject "GranularTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

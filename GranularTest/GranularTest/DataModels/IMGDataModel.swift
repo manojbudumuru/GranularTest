@@ -27,4 +27,6 @@ class IMGDataModel{
             print("----------\(imageURLArray)----------")
         }
     }
+    
+    
 }
